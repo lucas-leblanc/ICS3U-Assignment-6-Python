@@ -10,7 +10,7 @@ import math
 def triangle_volume_calculation(base, height, length):
     # This function calculates the volume of the triangle
 
-    volume = math.pi * base * height * length
+    volume = ((base * height) / 2) * length
 
     return volume
 
